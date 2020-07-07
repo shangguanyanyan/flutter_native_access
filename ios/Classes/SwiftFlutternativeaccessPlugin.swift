@@ -20,7 +20,6 @@ public class SwiftFlutternativeaccessPlugin: NSObject, FlutterPlugin {
             let arguments = call.arguments as! NSDictionary
             let isKeepScreenOn = arguments[IS_KEEP_SCREEN_ON] as! Bool
             keepScreenOn(isKeepScreenOn:isKeepScreenOn,result: result)
-            result(true)
         case GET_PLATFORM_VERSION:
             result("iOS " + UIDevice.current.systemVersion)
         default:

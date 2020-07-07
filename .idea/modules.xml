@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_native_access.iml" filepath="$PROJECT_DIR$/.idea/flutter_native_access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutternativeaccess.iml" filepath="$PROJECT_DIR$/flutternativeaccess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/flutternativeaccess_android.iml" filepath="$PROJECT_DIR$/android/flutternativeaccess_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/flutternativeaccess_example_android.iml" filepath="$PROJECT_DIR$/example/android/flutternativeaccess_example_android.iml" />
     </modules>
   </component>
 </project>
