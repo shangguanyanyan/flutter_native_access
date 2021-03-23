@@ -9,7 +9,7 @@ class PathUtil{
   ///
   /// 如果在 runApp 之前调用，
   /// 则需要先执行 `WidgetsFlutterBinding.ensureInitialized();`
-  static Future<String> getDataDir([String path]) async {
+  static Future<String> getDataDir([String? path]) async {
     String dataDir = (await getApplicationDocumentsDirectory()).path;
     dataDir = _context.join(dataDir, path);
     return dataDir;
